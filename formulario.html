@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+
+    <h1>Formulário</h1>
+
+<form>
+    <!--CAMPO PARA NOME TYPE TEXT-->
+    <label for="camponome">Nome:</label>
+    <input id="camponome" type="text" placeholder="Digite seu nome aqui" required><br><br>
+
+    <!--CAMPO PARA SOBRENOME TYPE TEXT-->
+    <label for="camposobrenome">Sobrenome:</label>
+    <input id="camposobrenome" type="text" placeholder="Digite seu sobrenome aqui" required>
+    <br><br>
+
+    <!--CAMPO PARA SENHA TYPE PASSWORD-->
+    <label for="camposenha">Senha:</label>
+    <input id="camposenha" type="password" placeholder="Digite sua senha aqui" required>
+    <br><br>
+
+    <!--CAMPO PARA EMAIL TYPE EMAIL-->
+    <label for="campoemail">E-mail:</label>
+    <input id="campoemail" type="email" placeholder="Digite seu e-mail aqui" required>
+    <br><br>
+
+    <!--CAMPO PARA SELECIONAR PET-->
+    <h3>Animal de estimação</h3>
+
+    <!--OBS: nos campos id e name você pode colocar o que quiser-->
+    <input type="radio" id="dog" name="animal" value="Cachorro">
+    <label for="dog">Cachorro</label>
+    <br><br>
+    <input type="radio" id="cat" name="animal" value="Gato">
+    <label for="cat">Gato</label>
+    <br><br>
+    <input type="radio" id="bird" name="animal" value="Passarinho">
+    <label for="bird">Passarinho</label>
+    <br><br>
+
+    <!--COMO FAZER CHECKBOX-->
+<h3>O que você tem em casa?</h3>
+    <input type="checkbox" name="Computador" value="Computador" id="Computador">
+    <label for="Computador">Computador</label><br><br>
+    <input type="checkbox" name="TV" value="TV" id="TV">
+    <label for="TV">TV</label><br><br>
+    <input type="checkbox" name="Videogame" value="Videogame" id="Videogame">
+    <label for="Videogame">Videogame</label><br><br>
+
+<!--FAZER DROPDOWN MENU DE ESCOLHA-->
+    <h3>Escolha uma cor</h3>
+    <select name="cores">
+<option selected disabled value="">Selecione uma cor</option>
+<option value="vermelho">Vermelho</option>
+<option value="azul">Azul</option>
+<option value="verde">Verde</option>
+<option value="amarelo">Amarelo</option>
+    </select>
+<br><br>
+
+<!--CAMPO PARA DIGITAR MENSAGENS MAIS LONGAS-->
+<h3>Escreva sobre você</h3>
+<textarea name="descrição" placeholder="Digite aqui uma breve descrição sua" rows="10" cols="40"></textarea><br><br>
+
+    <!--BOTÃO PARA SUBMIT TYPE SUBMIT-->
+    <input type="submit" value="Enviar Formulário"><br> 
+    <br>
+</form>
+
+<!--ESSA TAG BUTTON CRIA UM BOTÃO GENÉRICO-->
+<button>Clique aqui</button><br><br>
+
+    
+<hr>
+<a href="index.html">Voltar para a página inicial</a>
+<hr>
+
+</body>
+</html>
